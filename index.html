@@ -6,13 +6,11 @@
     <link rel="stylesheet" href="style.css">
     <title>Exposição Virtual - Comprando com Propósito</title>
 </head>
-<body>
+<body action="estaçoes.html">
     <header>
         <h1>Exposição Virtual - "Comprando com Propósito"</h1>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contato.html">Contato</a></li>
         </ul>
         </nav>
     </header>
@@ -20,11 +18,31 @@
     <section class="intro">
         <h2>Bem-vindo à Exposição!</h2>
         <p>Aprenda sobre sustentabilidade e consumo consciente.</p>
-        <a href="estaçoes.html" class="button">Comece a Explorar</a>
+      
     </section>
     </main>
+    <main>
+        <section>
+            <form class="formulario" action="estaçoes.html">
+                <h2>Preencha o formulario para continuar</h2>
+                <label for="name">Nome:</label>
+                <br>
+                <input class="name" type="text" id="name" name="name" width="" placeholder="Nome Completo" required>
+                <br><br>
+                <label for="email">E-mail:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="XXXX@XXXX.com" required>
+                <br><br>
+                <label for="date">Data de nascimento:</label>
+                <br>
+                <input type="date" id="date" name="date" min="1930-01-01" max="2010-12-31" required>
+                <br><br>
+                <input class="botãoformulario" type="submit" class="button"></input>
+            </form>
+        </section>
+    </main>
     <footer>
-        <p>© 2023 - Exposição Virtual "Comprando com Propósito"</p>
+        <p>© 2025 - Exposição Virtual "Comprando com Propósito"</p>
     </footer>
 </body>
 </html>

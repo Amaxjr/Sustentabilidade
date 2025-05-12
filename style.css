@@ -1,48 +1,78 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
     }
     header {
-    background: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+        background: #f8e024;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
     }
     nav ul {
-    list-style: none;
-    padding: 0;
+        list-style: none;
+        padding: 0;
     }
     nav ul li {
-    display: inline;
-    margin: 0 15px;
+        display: inline;
+        margin: 0 15px;
     }
     nav a {
-    color: white;
-    text-decoration: none;
+        color: white;
+        text-decoration: none;
     }
     main {
-    padding: 20px;
+        padding: 20px;
     }
     .intro {
-    text-align: center;
+        text-align: center;
     }
-    .button {
-    display: inline-block;
-    background: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    
+    .botãoformulario{
+        display: inline-block;
+        background: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        
     }
     footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        background: #333;
+        color: white;
+        position: end;
+        bottom: 0;
+        width: 100%;
+    }
+    .formulario {
+        text-align: center;  
+        padding: 20px;
+        border-color: 100px 100px #333;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5%;
+        padding-bottom: 35px;
+    }
+    #name {
+        width: 70%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    #email {
+        width: 70%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    #date {
+        width: 70%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
     }
