@@ -5,7 +5,7 @@
         background-color: #f4f4f4;
     }
     header {
-        background: #f8e024;
+        background: #4CAF50;
         color: white;
         padding: 10px 0;
         text-align: center;
@@ -42,7 +42,7 @@
         padding: 10px 0;
         background: #333;
         color: white;
-        position: end;
+        position: fixed;
         bottom: 0;
         width: 100%;
     }
@@ -63,13 +63,6 @@
         border-radius: 4px;
     }
     #email {
-        width: 70%;
-        padding: 10px;
-        margin: 5px 0;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-    #date {
         width: 70%;
         padding: 10px;
         margin: 5px 0;
