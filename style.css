@@ -1,104 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.botãoformulario {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+.formulario {
+    text-align: center;
+    padding: 20px;
+    border-color: 100px 100px #333;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5%;
+    padding-bottom: 35px;
+}
+
+#name {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#email {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.capa, .objetivo {
+    width: 550px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.iframe {
+    margin: 20px auto;
+    display: block;
+    border-radius: 5%;
+}
+
+input {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    transition: 0.3s;
+}
+
+input:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+/* Dispositivos grandes (até 1200px) */
+@media screen and (max-width: 1200px) {
+    .capa, .objetivo {
+        width: 80%;
+        height: auto;
+    }
+
+    .iframe {
+        width: 80%;
+        height: auto;
+    }
+
+    input {
+        width: 70%;
+    }
+}
+
+/* Dispositivos médios (até 768px) */
+@media screen and (max-width: 768px) {
     body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
+        font-size: 16px;
+        padding: 10px;
     }
-    header {
-        background: #4CAF50;
-        color: white;
-        padding: 10px 0;
-        text-align: center;
+
+    .capa, .objetivo {
+        width: 90%;
+        height: auto;
     }
-    nav ul {
-        list-style: none;
-        padding: 0;
+
+    .iframe {
+        width: 100%;
+        height: auto;
     }
-    nav ul li {
-        display: inline;
-        margin: 0 15px;
+
+    input {
+        width: 80%;
     }
-    nav a {
-        color: white;
-        text-decoration: none;
+}
+
+/* Dispositivos pequenos (até 480px) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
     }
-    main {
-        padding: 20px;
+
+    .capa, .objetivo {
+        width: 100%;
+        height: auto;
     }
-    .intro {
-        text-align: center;
+
+    .iframe {
+        width: 100%;
+        height: auto;
     }
-    .botãoformulario{
-        display: inline-block;
-        background: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 5px;
-        
+
+    input {
+        width: 90%;
     }
-    footer {
-        text-align: center;
-        padding: 10px 0;
-        background: #333;
-        color: white;
-      
-        bottom: 0;
+}
+
+/* Dispositivos extremamente pequenos (até 320px, como iPhone 4) */
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+
+    .capa, .objetivo {
+        width: 100%;
+        height: auto;
+    }
+
+    .iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    input {
         width: 100%;
     }
-    .formulario {
-        text-align: center;  
-        padding: 20px;
-        border-color: 100px 100px #333;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 5%;
-        padding-bottom: 35px;
-    }
-    #name {
-        width: 70%;
-        padding: 10px;
-        margin: 5px 0;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-    #email {
-        width: 70%;
-        padding: 10px;
-        margin: 5px 0;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-    .capa{
-        width: 550px;
-        height: 550px;
-        margin-left: 369px;
-        border-radius: 10px;
-    }
-    .objetivo{
-        width: 550px;
-        height: 550px;
-        margin-left: 369px;
-        margin-top: 150px;
-    }
-    .iframe{
-        margin-left: 370px;
-        border-radius: 5%;
-    }
-    input {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-right: 120px;
-        margin-left: 550px;
-        margin-bottom: 250px;
-        margin-top: 10px;
-        transition: 0.3s;
-    }
-    input:hover {
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        transition: 0.3s;
-    }
+}
